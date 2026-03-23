@@ -701,12 +701,12 @@
             // Auto close the overlay and scroll to pilot waitlist after toast
             setTimeout(() => { exitApp(); scrollToId('pilot'); }, 2000);
         };
-    </script>
+   <section id="beta">
+        <h2>Join the Office Beta</h2>
+        <p>Be the first to test Chillbrew! Enter your office email below:</p>
+        <input type="email" id="emailInput" placeholder="name@office.com">
+        <button id="joinBtn">Join Beta</button>
+    </section>
+    <script type="module" src="script.js"></script>
 </body>
-    <section id="beta">
-  <h2>Join the Office Beta</h2>
-  <p>Be the first to test Chillbrew! Enter your office email below:</p>
-  <input type="email" placeholder="name@office.com">
-  <button onclick="alert('Thanks! We will notify you when the APK is ready.')">Join Beta</button>
-</section>
 </html>
